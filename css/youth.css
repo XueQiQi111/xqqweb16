@@ -1,0 +1,151 @@
+/* 为主体内容增加样式 */
+body {
+    background-color: rgb(236, 190, 131);
+    margin: 0;
+    font-size: 100%;
+}
+
+/* 为页眉区增加样式 */
+header.top {
+    background-color: rgb(236, 190, 131);
+    height: 108px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+header.top div.headerion {
+    display: inline;
+    float: left;
+    height: 100%;
+    margin-left: 50px;
+} 
+
+header.top span {
+    display: inline;
+    color: rgb(167, 70, 18);  
+    font-size: 40px;
+    margin: 20px 10px 20px 50px;
+    line-height: 100px;
+    font-style: italic;
+}
+
+/* 为导航区指定样式 */
+nav {
+    background-color: #cb8c18;
+    font-size: 17px;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 20px 20px 20px 20px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 15px 15px 20px 15px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+    text-decoration: none;
+    /* 去掉超链接的下划线 */
+}
+
+/* 为内容区增加样式 */
+div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+}
+h3 {
+    font-size: 95%;
+    color: #954b4b;
+}
+
+#part_1 {
+    background: rgba(251, 249, 246, 0.5);
+    font-size: 95%;
+    padding: 30px;
+    width: 30%;
+    display: table-cell;
+    /* 表格单元格,浏览器默认对齐方式为居中 */
+    vertical-align: top;
+    /* vertical-align垂直对齐 */
+    text-align: center;
+    /* text-align水平对齐 */
+}
+
+#part_2 {
+    background: rgba(251, 249, 246, 0.5);
+    font-size: 95%;
+    padding: 30px;
+    display: table-cell;
+    /* 表格单元格,浏览器默认对齐方式为居中 */
+    width: 40%;
+    vertical-align: top;
+    text-align: center;
+}
+
+#part_3 {
+    background: rgba(251, 249, 246, 0.5);
+    font-size: 95%;
+    padding: 30px;
+    display: table-cell;
+   /* 表格单元格 */
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+}
+
+/* 表格选择器 */
+div#tableContainer {
+    display: table;
+    /* 表格布局 */
+    border-spacing: 15px;
+    /* 给边框之间留15px的空隙,与margin不会重叠 */
+}
+
+div#tableRow {
+    display: table-row;
+    /* 表格行 */
+}
+
+div#container_1 {
+    height: 850px;
+    background-color: rgba(251, 249, 246, 0.5);
+    padding: 30px;
+    text-align: center;
+}
+
+blockquote {
+    color: #954b4b;
+    font-style: italic;
+    text-align: center;
+    width: 80%;
+}
+
+/* 表单样式 */
+aside{
+    margin-top: 50px;
+    margin-right: 70px;
+    width: 250px;
+    float: right;
+    background-color: rgb(236, 190, 131);
+}
+
+footer {
+    background-color: #cb8c18;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 70%;
+}

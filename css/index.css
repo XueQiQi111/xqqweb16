@@ -1,0 +1,139 @@
+/* 为主体内容增加样式 */
+body {
+    background-color: rgba(227, 198, 154, 0.5);
+    margin: 0;
+    font-size: 100%;
+}
+
+/* 为页眉区增加样式 */
+header.top {
+    background-color: rgb(236, 190, 131);
+    height: 108px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+header.top div.headerion {
+    display: inline;
+    float: left;
+    height: 100%;
+    margin-left: 50px;
+} 
+
+header.top span {
+    display: inline;
+    color: rgb(167, 70, 18);  
+    font-size: 40px;
+    margin: 20px 10px 20px 50px;
+    line-height: 100px;
+    font-style: italic;
+    /* 字体设置为斜体 */
+}
+
+/* 为导航区指定样式 */
+nav {
+    background-color: #cb8c18;
+    font-size: 17px;
+}
+
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 20px 20px 20px 20px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 15px 15px 20px 15px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+    text-decoration: none;
+    /* 去掉超链接的下划线 */
+}
+
+/* 为内容区增加样式*/
+/* 凝胶布局 */
+div.inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* 页面对齐方式：居中 */
+} 
+
+div#container_1 {
+    height: 450px;
+    background-color:rgb(236, 190, 131);
+}
+
+div#container_2 {
+    height: 1000px;
+}
+
+div#container_2 div.inner div#cont_2_1 {
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    float: left;
+    background-color: #cb8c18;
+    margin-top: 50px;
+    padding: 8px;
+    line-height: 23px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-left: 20px; 
+}
+
+div#container_2 div.inner div#cont_2_2 {
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    float: left;
+    background-color: #cb8c18;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 8px;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+div#container_2 div.inner div#cont_2_3 {
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    float: left;
+    background-color:  #cb8c18;
+    padding: 8px;
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 20px; 
+
+}
+
+div#container_2 div.inner div#cont_2_4 {
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    float: left;
+    background-color: #cb8c18;
+    padding: 8px;
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+
+footer {
+    background-color: #cb8c18;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 70%;
+}
